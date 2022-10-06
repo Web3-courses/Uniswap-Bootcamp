@@ -7,6 +7,7 @@ import { providers, ethers } from 'ethers';
 import detectEthereumProvider from '@metamask/detect-provider';
 //uniswap widgets library
 import { SwapWidget } from '@uniswap/widgets';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 const App = () => {
@@ -24,6 +25,11 @@ const App = () => {
     address:'',
     provider: provider,
   });
+
+
+  const tokenList = "https://tokens.coingecko.com/uniswap/all.json";
+
+
 
 
 // Connect wallet
@@ -46,20 +52,33 @@ const connectWallet = async () =>{
 
   
   return (
-    <div className="App">
+    <div className="container-fluid">
 
-    <div>
+    <div className='row'>
 
-      <button onClick={connectWallet}>Connect wallet</button>
-      
-    </div>  
+    <div class="col-4 mx-auto"></div>
 
-    <div className="Uniswap">
-    <SwapWidget
-        provider={account.provider}
-        JsonRpcEndpoint={jsonRpcEndpoint} />
-    </div>
-      
+      <div class="col-4 mt-5 mx-auto">
+        <button className='btn btn-success btn-style' onClick={connectWallet}>Connect wallet</button>
+      </div>
+
+      <div class="col-4 mx-auto"></div>   
+      </div>  
+
+    <div className="row mt-5 mb-5 border-black Uniswap">
+
+      <div class="col-4 mx-auto"></div>
+        <div class="col-4 mx-auto">
+
+          <SwapWidget
+              provider={account.provider}
+              JsonRpcEndpoint={jsonRpcEndpoint}
+              width={800}
+              tokenList={tokenList} />
+
+        </div>
+      <div class="col-4 mx-auto"></div>
+      </div> 
     </div>
   );
 }
