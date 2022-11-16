@@ -1,0 +1,6 @@
+[submodule "Developer Environment/Foundry/First/New/lib/forge-std"]
+	path = Developer Environment/Foundry/First/New/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Developer Environment/Foundry/First/lib/forge-std"]
+	path = Developer Environment/Foundry/First/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
