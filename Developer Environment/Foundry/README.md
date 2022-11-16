@@ -70,6 +70,14 @@ contract FooTest {
   }
 }
 ```
+  
+## Gas tests and snapshots
+  
+ 1. You can get gas costs in the form of a snapshot
+ 2. In foundry.toml enter  gas_reports = ["*"] to get gas reports for all files
+ 3. To get specific contract gas snapshot use gas_reports = ["Counter"]
+ 4. Enter forge test --gas-report for getting the gas snapshot 
+  
 
 ## Importnat Links
 
