@@ -33,25 +33,33 @@ Foundry is a fast and modular Ethereum toolkit for smart contracts development.
 Simple test 
   
   ```
-  pragma solidity 0.8.10;
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
+import "../src/Counter.sol";
 
-contract ContractBTest is Test {
-    uint256 testNumber;
+contract CounterTest is Test {
+    Counter public counter;
 
+    // setUp functions are run before every function is called
     function setUp() public {
-        testNumber = 42;
+        counter = new Counter(); // Get the counter
+        counter.setNumber(0);    // Set the number to Zero
     }
 
-    function testNumberIs42() public {
-        assertEq(testNumber, 42);
+    function testIncrement() public {
+        counter.increment();            // Increment number by 1 which is 1
+        assertEq(counter.number(), 1); // Check for the answer which should be 1
     }
 
-    function testFailSubtract43() public {
-        testNumber -= 43;
+    function testSetNumber(uint256 x) public {
+        counter.setNumber(x);           // Set the number by X
+        assertEq(counter.number(), x); // Check for the answer which should be x
     }
 }
+// Run forge test to run
+
   ```
   
   In the above code, setUp is optional and invoked before every function/method is called. Functiosn with prefix test are run as tests.
