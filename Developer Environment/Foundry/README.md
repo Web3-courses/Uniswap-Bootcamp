@@ -77,7 +77,7 @@ contract FooTest {
  2. In foundry.toml enter  gas_reports = ["*"] to get gas reports for all files
  3. To get specific contract gas snapshot use gas_reports = ["Counter"]
  4. Enter forge test --gas-report for getting the gas snapshot 
- 1[Gas snapshots](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202022-11-16%20115526.png)
+ ![Gas snapshots](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202022-11-16%20115526.png)
   
 
 ## Importnat Links
