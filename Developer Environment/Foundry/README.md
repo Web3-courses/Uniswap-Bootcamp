@@ -29,6 +29,33 @@ Foundry is a fast and modular Ethereum toolkit for smart contracts development.
 3. Cast
 
 ## Tests
+  
+Simple test 
+  
+  ```
+  pragma solidity 0.8.10;
+
+import "forge-std/Test.sol";
+
+contract ContractBTest is Test {
+    uint256 testNumber;
+
+    function setUp() public {
+        testNumber = 42;
+    }
+
+    function testNumberIs42() public {
+        assertEq(testNumber, 42);
+    }
+
+    function testFailSubtract43() public {
+        testNumber -= 43;
+    }
+}
+  ```
+  
+  In the above code, setUp is optional and invoked before every function/method is called. Functiosn with prefix test are run as tests.
+  
 
 A simple Solidity test
 
