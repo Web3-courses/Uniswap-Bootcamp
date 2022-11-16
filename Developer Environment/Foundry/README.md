@@ -114,7 +114,16 @@ contract FooTest {
  4. Enter forge test --gas-report for getting the gas snapshot 
  ![Gas snapshots](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202022-11-16%20115526.png)
   
-
+## Deployment
+  
+* forge can only deploy one contract at a time
+  
+``` forge create --rpc-url <your_rpc_url> --private-key <your_private_key> src/MyContract.sol:MyContract ```
+  
+Enter the above command for deploying the Smart Contract.  
+  
+  
+  
 ## Importnat Links
 
 1. [Foundry Book](https://book.getfoundry.sh/)
