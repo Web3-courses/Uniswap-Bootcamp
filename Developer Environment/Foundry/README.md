@@ -17,8 +17,9 @@ Foundry is a fast and modular Ethereum toolkit for smart contracts development.
 
 ## Starting the project
 
-1. > foundry init <Newproject>
-2. 
+1. > foundry init <Newproject> --no-commit
+2. Run ``` forge build ``` to run the smart contract and to get the ABI code
+3. you will get a new folder called out which contains all the compiled scripts  
 
 
 ## Tools
