@@ -1,1 +1,75 @@
 # Foundry for developing and deploying smart contracts
+
+Foundry is a fast and modular Ethereum toolkit for smart contracts development.
+
+## Installation
+
+* On windows
+
+1. Download rustup-init from [rustup](https://rustup.rs/) and follow the instructions prompted by installation
+2. Check for rust compiler help commands in your terminal using rustc command
+3. After that, run the following in the terminal
+> cargo install --git https://github.com/foundry-rs/foundry foundry-cli anvil --bins --locked
+
+4. It will take a lot of time. Dont worry, sit tight
+5. Enter forge in terminal to have a look at available commands
+
+
+## Starting the project
+
+1. > foundry init <Newproject>
+2. 
+
+
+## Tools
+
+1. Anvil
+2. Forge
+3. Cast
+
+## Tests
+
+A simple Solidity test
+
+```
+contract Foo {
+  uint256 public x = 1;
+  function set(uint256 _x) external {
+    x = _x;
+  }
+
+  function double() external {
+    x = 2 * x;
+  }
+}
+
+contract FooTest {
+  Foo foo;
+
+  // The state of the contract gets reset before each
+  // test is run, with the `setUp()` function being called
+  // each time after deployment. Think of this like a JavaScript
+  // `beforeEach` block
+  function setUp() public {
+    foo = new Foo();
+  }
+
+  // A simple unit test
+  function testDouble() public {
+    require(foo.x() == 1);
+    foo.double();
+    require(foo.x() == 2);
+  }
+
+  // A failing unit test (function name starts with `testFail`)
+  function testFailDouble() public {
+    require(foo.x() == 1);
+    foo.double();
+    require(foo.x() == 4);
+  }
+}
+```
+
+## Importnat Links
+
+1. [Foundry Book](https://book.getfoundry.sh/)
