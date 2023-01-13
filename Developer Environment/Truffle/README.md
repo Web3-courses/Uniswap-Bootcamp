@@ -41,10 +41,11 @@ With Ganache, all you need to do is start the application and you have a preconf
 
 3. Enter the details accordingly in the fields
 ![details](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2011.06.16.png)
-**You can get the details from the ganache dashboard **
+**You can get the details from the ganache dashboard**
 <hr>
 
-
+4. Add your private key of the ganache account to the metamask add account
+![add account](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2011.12.21.png)
 
 
 
