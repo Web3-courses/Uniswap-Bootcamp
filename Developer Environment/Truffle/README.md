@@ -10,7 +10,7 @@ Although that is a great way to develop distributed applications on Ethereum, it
 
 With Ganache, all you need to do is start the application and you have a preconfigured Ethereum client with 10 pre-funded and unlocked accounts ready for use. This allows you to quickly test your DApp throughout your development cycle.
 
-How to install Ganache?
+## How to install Ganache?
 
 1. [Install npm & nodejs](https://nodejs.org/en/)
 2. Install ganache globally by running ``` npm install ganache --global ```
@@ -21,13 +21,27 @@ How to install Ganache?
 1. Open Ganache environment in your local machine
 ![ganache](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2010.20.51.png)
 
-2.  Go to **Quickstart** for quick version of blockchain setup.
-3.  You will get 10 wallets automatically with mnemonic phrase.
+2. Go to **Quickstart** for quick version of blockchain setup.
+3. You will get 10 wallets automatically with mnemonic phrase.
 4. Go to **Blocks** to see the blocks mined.
 5. Go to **Transactions** to see the txns happened.
 6. Go to **Contracts** to see the details about contracts.
 7. Go to **Events** to see the emits.
 8. Go to **Logs** to have a look at the Logs. 
+
+## How to connect Ganache with metamask?
+
+1. Go to **Add Network**
+![add network](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2011.00.21.png)
+
+2. Click on **Add Network Manually**
+![add network manually](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2011.02.20.png)
+
+3. Enter the details accordingly in the fields
+![details](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2011.06.16.png)
+
+
+
 
 
 
