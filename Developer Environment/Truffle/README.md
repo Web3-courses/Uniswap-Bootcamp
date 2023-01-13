@@ -33,12 +33,16 @@ With Ganache, all you need to do is start the application and you have a preconf
 
 1. Go to **Add Network**
 ![add network](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2011.00.21.png)
+<hr>
 
 2. Click on **Add Network Manually**
 ![add network manually](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2011.02.20.png)
+<hr>
 
 3. Enter the details accordingly in the fields
 ![details](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2011.06.16.png)
+** You can get the details from the ganache dashboard **
+<hr>
 
 
 
