@@ -12,4 +12,9 @@ With Ganache, all you need to do is start the application and you have a preconf
 
 How to install Ganache?
 
+1. [Install npm & nodejs](https://nodejs.org/en/)
+2. Install ganache globally by running ``` npm install ganache --global ```
+
+
+
 
