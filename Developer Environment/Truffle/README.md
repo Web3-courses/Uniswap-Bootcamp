@@ -14,6 +14,11 @@ How to install Ganache?
 
 1. [Install npm & nodejs](https://nodejs.org/en/)
 2. Install ganache globally by running ``` npm install ganache --global ```
+3. Or you can install ganache directly using this [link](https://trufflesuite.com/ganache/)
+4. Open Ganache environment in your local machine
+![ganache](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2010.20.51.png)
+
+5.  
 
 
 
