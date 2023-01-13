@@ -49,6 +49,8 @@ With Ganache, all you need to do is start the application and you have a preconf
 <hr/>
 
 ## How to work with truffle?
+
+[Truffle suite](https://trufflesuite.com/)
 Truffle is a development environment, testing framework, and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. With Truffle you get:
 
 - Built-in smart contract compilation, linking, deployment and binary management.
@@ -59,6 +61,12 @@ Truffle is a development environment, testing framework, and asset pipeline for 
 - Interactive console for direct contract communication.
 - Instant rebuilding of assets during development.
 - External script runner that executes scripts within a Truffle environment.
+
+
+### Installing truffle
+
+1. Installing
+> npm install -g truffle
 
 
 
