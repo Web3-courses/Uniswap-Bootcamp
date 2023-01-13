@@ -18,7 +18,9 @@ How to install Ganache?
 4. Open Ganache environment in your local machine
 ![ganache](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2010.20.51.png)
 
-5.  
+5.  Go to **Quickstart** for quick version of blockchain setup.
+6.  You will get 10 wallets automatically with mnemonic phrase
+7.  
 
 
 
