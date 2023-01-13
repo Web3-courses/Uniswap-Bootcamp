@@ -68,14 +68,8 @@ Truffle is a development environment, testing framework, and asset pipeline for 
 1. Installing
 > npm install -g truffle
 
+**create a folder or clone a project and inside the project, try to use tihs command**
 
-
-
-
-
-
-
-
-
-
+2. Initializing
+> truffle init
 
