@@ -15,12 +15,22 @@ How to install Ganache?
 1. [Install npm & nodejs](https://nodejs.org/en/)
 2. Install ganache globally by running ``` npm install ganache --global ```
 3. Or you can install ganache directly using this [link](https://trufflesuite.com/ganache/)
-4. Open Ganache environment in your local machine
+
+## How to use Ganache?
+
+1. Open Ganache environment in your local machine
 ![ganache](https://github.com/Web3-courses/Uniswap-Bootcamp/blob/main/Images/Screenshot%202023-01-13%20at%2010.20.51.png)
 
-5.  Go to **Quickstart** for quick version of blockchain setup.
-6.  You will get 10 wallets automatically with mnemonic phrase
-7.  
+2.  Go to **Quickstart** for quick version of blockchain setup.
+3.  You will get 10 wallets automatically with mnemonic phrase.
+4. Go to **Blocks** to see the blocks mined.
+5. Go to **Transactions** to see the txns happened.
+6. Go to **Contracts** to see the details about contracts.
+7. Go to **Events** to see the emits.
+8. Go to **Logs** to have a look at the Logs. 
+
+
+
 
 
 
