@@ -1,4 +1,4 @@
-<div style="background-color:lightblue">
+
 # Defi basics
 
 - An open , global alternative to the current financial system
@@ -34,4 +34,17 @@ Instead of a centralized intermediary, such as a traditional exchange, the AMM a
 
 In other words, the AMM algorithm acts as a sort of "virtual vending machine" for digital assets, providing a fair and easy way for individuals to trade without the need for a centralized intermediary.
 
-</div>
+### Explaining the AMM mathemtaically
+
+- Lets consider an asset A to be 10.
+- Similarly conisder and asset B to be 10.
+- Now A * B = 100, because both the assets are 10 each
+
+What if?
+
+- Asset B is reduuced to 8 because someone withdrawed 2 units from the asset B pool.
+- Now it is 10 * 8 = 100, becuase 100 which is K should be constant.
+- We can say 10/10 * 8/10 = 100, because both asset A and B should be 10 each.
+- Now we can say that for 1 unit of A, we get 0.8 unit of B.
+- So, for 10 units of A, we get 10 * 0.8 which is 8 units of asset B.
+- Similarly, for every x units of A we get x * 0.8 units of B.
