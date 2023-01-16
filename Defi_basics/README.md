@@ -48,3 +48,37 @@ What if?
 - Now we can say that for 1 unit of A, we get 0.8 unit of B.
 - So, for 10 units of A, we get 10 * 0.8 which is 8 units of asset B.
 - Similarly, for every x units of A we get x * 0.8 units of B.
+
+**Further mathematical explanation**
+
+```
+
+Initially 
+
+A = 10,
+B = 10,
+K = 100
+
+So, A * B = K;
+
+A/10 = B/10, A = B as A and B both are 10 each
+
+Now, when B =8
+
+A = 10
+B = 8
+K = 100
+
+A/10 = B/10, A= 0.8B as A is 10 and B is 8
+
+```
+
+When A = 10, B = 10 and K = 100, the constant function holds true: A * B = K.
+
+Since A = B, the ratio of A and B is 1:1, meaning that for every 1 unit of A, you would receive 1 unit of B.
+
+Now when B = 8, the constant function still holds true: A * B = K.
+
+In this case, since A is still 10 and B is 8, the ratio of A and B is 10:8, meaning that for every 1 unit of A, you would receive 0.8 units of B.
+
+This relationship is maintained by adjusting the exchange rate between the two assets, which ensures that trades are executed fairly for both parties and the liquidity of the assets being traded is maintained.
