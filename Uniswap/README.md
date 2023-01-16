@@ -1,6 +1,7 @@
 # UNISWAP BASICS
 
 This file is for understanding basics of Uniswap and Decentralised Exchanges in general.
+[Uniswap docs](https://docs.uniswap.org/)
 
 ## Decentralised Exchanges(DEXs)
 
