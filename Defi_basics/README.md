@@ -82,3 +82,9 @@ Now when B = 8, the constant function still holds true: A * B = K.
 In this case, since A is still 10 and B is 8, the ratio of A and B is 10:8, meaning that for every 1 unit of A, you would receive 0.8 units of B.
 
 This relationship is maintained by adjusting the exchange rate between the two assets, which ensures that trades are executed fairly for both parties and the liquidity of the assets being traded is maintained.
+
+## Liquidity Pools and Liquidity Providers
+
+- A liquidity pool is a collection of assets, such as cryptocurrency, that can be bought and sold on a platform using a common currency, like the US dollar. It's a virtual marketplace where assets can be traded with ease and efficiency.
+
+- Liquidity providers are entities that provide capital to the liquidity pool to ensure that there is enough available to facilitate trades and maintain stability in the market. They also earn a return on the assets they provide liquidity for. Their role is to ensure the market is liquid, meaning that there's always enough assets in the pool so that people can buy and sell them at any time. They may use different strategies such as market making, where they buy and sell assets to provide liquidity, or arbitrage, where they take advantage of the price difference in different markets.
