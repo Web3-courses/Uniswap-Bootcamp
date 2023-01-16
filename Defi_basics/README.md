@@ -1,3 +1,4 @@
+<div style="background-color:lightblue">
 # Defi basics
 
 - An open , global alternative to the current financial system
@@ -23,6 +24,8 @@ It's like a toy exchange market, but instead of having a specific toy or money, 
 So, the next time you want to trade your toy for another toy and you don't know who has what you want, think of the AMM robot as your toy trading helper!
 
 **Little technical**
+<br/>
+
 An Automated Market Maker (AMM) is a algorithm that facilitates trading of digital assets on a decentralized exchange (DEX) by providing liquidity to the market.
 
 Think of an AMM as a robot matchmaker that helps connect buyers and sellers of a specific digital asset, such as a cryptocurrency. The AMM algorithm uses a complex mathematical formula, called a constant function, to determine the exchange rate between the assets being traded and ensures that trades are executed fairly for both parties.
@@ -31,3 +34,4 @@ Instead of a centralized intermediary, such as a traditional exchange, the AMM a
 
 In other words, the AMM algorithm acts as a sort of "virtual vending machine" for digital assets, providing a fair and easy way for individuals to trade without the need for a centralized intermediary.
 
+</div>
